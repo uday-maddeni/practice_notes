@@ -1,0 +1,36 @@
+
+May 02, 2023 21:42:36.202 NEW SESSION
+May 02, 2023 21:42:36.202 [5796:9280:0502/214236.196:ERROR:device_event_log_impl.cc(222)] [21:42:36.197] USB: usb_device_handle_win.cc:1046 Failed to read descriptor from node connection: A device attached to the system is not functioning. (0x1F)
+May 02, 2023 21:42:36.203 [5796:9280:0502/214236.197:ERROR:device_event_log_impl.cc(222)] [21:42:36.198] USB: usb_device_handle_win.cc:1046 Failed to read descriptor from node connection: A device attached to the system is not functioning. (0x1F)
+May 02, 2023 21:42:37.592 INFO: Created TensorFlow Lite XNNPACK delegate for CPU.
+May 02, 2023 22:21:59.59 [5796:10776:0502/222159.055:ERROR:connection_factory_impl.cc(472)] ConnectionHandler failed with net error: -2
+May 02, 2023 22:54:43.434 [5796:10776:0502/225443.430:ERROR:connection_factory_impl.cc(472)] ConnectionHandler failed with net error: -2
+
+May 04, 2023 10:53:57.923 NEW SESSION
+May 04, 2023 10:53:57.923 [4060:10064:0504/105357.921:ERROR:device_event_log_impl.cc(222)] [10:53:57.921] USB: usb_device_handle_win.cc:1046 Failed to read descriptor from node connection: A device attached to the system is not functioning. (0x1F)
+May 04, 2023 10:53:57.924 [4060:10064:0504/105357.922:ERROR:device_event_log_impl.cc(222)] [10:53:57.923] USB: usb_device_handle_win.cc:1046 Failed to read descriptor from node connection: A device attached to the system is not functioning. (0x1F)
+May 04, 2023 10:53:58.530 INFO: Created TensorFlow Lite XNNPACK delegate for CPU.
+May 04, 2023 11:48:25.743 [4060:652:0504/114825.739:ERROR:connection_factory_impl.cc(472)] ConnectionHandler failed with net error: -2
+
+May 05, 2023 04:59:33.686 NEW SESSION
+May 05, 2023 04:59:33.686 [3512:9668:0505/045933.682:ERROR:device_event_log_impl.cc(222)] [04:59:33.682] USB: usb_device_handle_win.cc:1046 Failed to read descriptor from node connection: A device attached to the system is not functioning. (0x1F)
+May 05, 2023 04:59:33.687 [3512:9668:0505/045933.685:ERROR:device_event_log_impl.cc(222)] [04:59:33.685] USB: usb_device_handle_win.cc:1046 Failed to read descriptor from node connection: A device attached to the system is not functioning. (0x1F)
+May 05, 2023 04:59:35.32 INFO: Created TensorFlow Lite XNNPACK delegate for CPU.
+
+May 05, 2023 23:34:46.113 NEW SESSION
+May 05, 2023 23:34:46.113 [12092:8532:0505/233446.104:ERROR:device_event_log_impl.cc(222)] [23:34:46.104] USB: usb_device_handle_win.cc:1046 Failed to read descriptor from node connection: A device attached to the system is not functioning. (0x1F)
+May 05, 2023 23:34:46.115 [12092:8532:0505/233446.105:ERROR:device_event_log_impl.cc(222)] [23:34:46.104] USB: usb_device_handle_win.cc:1046 Failed to read descriptor from node connection: A device attached to the system is not functioning. (0x1F)
+May 05, 2023 23:34:47.563 INFO: Created TensorFlow Lite XNNPACK delegate for CPU.
+
+May 06, 2023 01:43:01.101 NEW SESSION
+May 06, 2023 01:43:01.101 [4644:3912:0506/014301.097:ERROR:device_event_log_impl.cc(222)] [01:43:01.098] USB: usb_device_handle_win.cc:1046 Failed to read descriptor from node connection: A device attached to the system is not functioning. (0x1F)
+May 06, 2023 01:43:01.102 [4644:3912:0506/014301.098:ERROR:device_event_log_impl.cc(222)] [01:43:01.099] USB: usb_device_handle_win.cc:1046 Failed to read descriptor from node connection: A device attached to the system is not functioning. (0x1F)
+May 06, 2023 01:43:02.384 INFO: Created TensorFlow Lite XNNPACK delegate for CPU.
+
+Dec 21, 2023 24:05:53.817 NEW SESSION
+Dec 21, 2023 24:05:53.818 [13608:14196:1221/000553.777:ERROR:connection_factory_impl.cc(471)] ConnectionHandler failed with net error: -2
+Dec 21, 2023 24:12:51.715 [13608:6864:1221/001251.713:ERROR:device_event_log_impl.cc(192)] [00:12:51.698] USB: usb_service_win.cc:104 SetupDiGetDeviceProperty({{A45C254E-DF1C-4EFD-8020-67D146A850E0}, 6}) failed: Element not found. (0x490)
+Dec 21, 2023 01:34:45.469 [13608:6864:1221/013445.466:ERROR:device_event_log_impl.cc(192)] [01:34:45.450] USB: usb_service_win.cc:104 SetupDiGetDeviceProperty({{A45C254E-DF1C-4EFD-8020-67D146A850E0}, 6}) failed: Element not found. (0x490)
+
+Dec 25, 2023 16:50:48.519 NEW SESSION
+Dec 25, 2023 16:50:48.520 [1608:9328:1225/165048.457:ERROR:connection_factory_impl.cc(471)] ConnectionHandler failed with net error: -2

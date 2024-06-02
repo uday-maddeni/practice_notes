@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="MavenProjectWizardLocationPage">
+		<list key="location">
+			<item value="C:\Users\HP\spring-workspace\MVCProj03-DataBinding-HTML"/>
+			<item value="C:\Users\HP\spring-workspace\MVCProj1-FirstApp"/>
+			<item value="C:\Users\HP\spring-workspace\SpringAOP-Proj03-AfterReturningAdvice\src\main\java\com\nt\cfgs\applicationContext.xml"/>
+			<item value="C:\Users\HP\spring-workspace\SpringJdbcProj5-JdbcTemplate-CallbackMethod"/>
+			<item value="C:\Users\HP\spring-workspace\MVCProj01-ShowHomePage"/>
+		</list>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+	</section>
+	<section name="MavenProjectWizardArchetypePage">
+		<item key="catalog" value="All Catalogs"/>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+	</section>
+	<section name="Maven2ProjectWizardArchifactPage">
+		<list key="package">
+			<item value="com.nt.test"/>
+			<item value="com.nt.controller"/>
+			<item value="com.nt.client"/>
+		</list>
+		<list key="groupId">
+			<item value="nit"/>
+		</list>
+		<list key="artifactId">
+			<item value="SpringSecurityProject-01"/>
+			<item value="MVCProj06-MiniProject-CURDoperations"/>
+			<item value="MVCProj05-DataBinding-UsingRequestParams"/>
+			<item value="MVCProj04-DataBinding-SpringSuppliedJSPTags"/>
+			<item value="MVCProj03-DataBinding-HTML"/>
+			<item value="MVCProj2-SecondApp"/>
+			<item value="MVCProj1-FirstApp"/>
+			<item value="SpringAOP-Proj04-ThrowsAdvice-CommonExceptionLogger-Grapher"/>
+			<item value="SpringAOP-Proj03-AfterReturningAdvice"/>
+			<item value="SpringAOP-Proj02-BeforeAdvice"/>
+			<item value="SpringAOP-Proj01-AroundAdvice"/>
+			<item value="SpringJdbcProj91-SimpleJdbcCall"/>
+			<item value="SpringJdbcProj10-SimpleJdbcCall"/>
+			<item value="SpringJdbcProj9-SimpleJdbcInsert"/>
+			<item value="SpringJdbcProj8-NamedParameter-BeanPropertySqlParameterSource"/>
+		</list>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+		<list key="version">
+			<item value="0.0.1-SNAPSHOT"/>
+		</list>
+	</section>
+	<section name="MavenProjectWizardArtifactPage">
+		<list key="groupId">
+		</list>
+		<list key="name">
+		</list>
+		<list key="artifactId">
+		</list>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+		<list key="version">
+			<item value="0.0.1-SNAPSHOT"/>
+		</list>
+	</section>
+	<section name="org.eclipse.m2e.core.pom.overview">
+	</section>
+	<section name="org.eclipse.m2e.core.pom.dependencies">
+	</section>
+</section>

@@ -1,0 +1,15 @@
+127.0.0.1 - - [19/Jan/2024:06:08:13 +0530] "GET / HTTP/1.1" 404 752
+0:0:0:0:0:0:0:1 - - [19/Jan/2024:06:08:17 +0530] "GET /MVCProj02-DataRendering/ HTTP/1.1" 200 102
+0:0:0:0:0:0:0:1 - - [19/Jan/2024:06:08:17 +0530] "GET /favicon.ico HTTP/1.1" 404 763
+0:0:0:0:0:0:0:1 - - [19/Jan/2024:06:08:25 +0530] "GET /MVCProj02-DataRendering/wish HTTP/1.1" 200 138
+0:0:0:0:0:0:0:1 - - [19/Jan/2024:06:08:31 +0530] "GET /MVCProj02-DataRendering/ HTTP/1.1" 200 102
+127.0.0.1 - - [19/Jan/2024:06:40:31 +0530] "GET / HTTP/1.1" 404 752
+0:0:0:0:0:0:0:1 - - [19/Jan/2024:06:40:33 +0530] "GET /SpringSecurityProject-01/ HTTP/1.1" 200 102
+0:0:0:0:0:0:0:1 - - [19/Jan/2024:06:40:38 +0530] "GET /SpringSecurityProject-01/wish HTTP/1.1" 200 138
+0:0:0:0:0:0:0:1 - - [19/Jan/2024:06:40:42 +0530] "GET /SpringSecurityProject-01/ HTTP/1.1" 200 102
+127.0.0.1 - - [19/Jan/2024:06:53:53 +0530] "GET / HTTP/1.1" 404 752
+0:0:0:0:0:0:0:1 - - [19/Jan/2024:06:53:55 +0530] "GET /SpringSecurityProject-01/ HTTP/1.1" 200 202
+0:0:0:0:0:0:0:1 - - [19/Jan/2024:06:53:58 +0530] "GET /SpringSecurityProject-01/wish HTTP/1.1" 200 138
+0:0:0:0:0:0:0:1 - - [19/Jan/2024:06:54:00 +0530] "GET /SpringSecurityProject-01/ HTTP/1.1" 200 202
+0:0:0:0:0:0:0:1 - - [19/Jan/2024:06:54:03 +0530] "GET /SpringSecurityProject-01/contact HTTP/1.1" 200 171
+0:0:0:0:0:0:0:1 - - [19/Jan/2024:06:54:13 +0530] "GET /SpringSecurityProject-01/ HTTP/1.1" 200 202

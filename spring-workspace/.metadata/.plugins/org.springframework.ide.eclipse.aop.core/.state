@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aop-reference-model>
+<aop-project name="SpringJdbcProj1-JdbcTemplate-DirectMethod"/>
+<aop-project name="SpringSecurityProject-01"/>
+<aop-project name="SpringJdbcProj6-NamedParameterJdbcTemplate"/>
+<aop-project name="MVCProj02-DataRendering"/>
+<aop-project name="IOCProj03-Alias"/>
+<aop-project name="MVCProj01-ShowHomePage"/>
+<aop-project name="SpringAOP-Proj01-AroundAdvice">
+<aspect-definition advice-class-name="com.nt.aspect.PerformanceMonitoringAspect" advice-method-name="performance(org.aspectj.lang.ProceedingJoinPoint)" advice-type="AROUND" aspect-end-line-number="10" aspect-name="pmAspect" aspect-start-line-number="10" factory-id="org.springframework.ide.eclipse.aop.core.annotationAspectDefinitionElementFactory" file="/SpringAOP-Proj01-AroundAdvice/src/main/java/com/nt/cfgs/applicationContext.xml" pointcut-expression="execution(double com.nt.service.BankService.calculate*(..))" proxy-target-class="false">
+<aop-reference advice-type="AROUND" bean="1:BeansModel|2:SpringAOP-Proj01-AroundAdvice|3:src/main/java/com/nt/cfgs/applicationContext.xml|7:beans:8|8:bankService:8" bean-file="/SpringAOP-Proj01-AroundAdvice/src/main/java/com/nt/cfgs/applicationContext.xml" bean-start-line="8" factory-id="org.springframework.ide.eclipse.aop.core.aopReferenceElementFactory" file="/SpringAOP-Proj01-AroundAdvice/src/main/java/com/nt/cfgs/applicationContext.xml" source="=SpringAOP-Proj01-AroundAdvice/src\/main\/java=/optional=/true=/=/maven.pomderived=/true=/&lt;com.nt.aspect{PerformanceMonitoringAspect.java[PerformanceMonitoringAspect~performance~QProceedingJoinPoint;" source-start-line="14" target="=SpringAOP-Proj01-AroundAdvice/src\/main\/java=/optional=/true=/=/maven.pomderived=/true=/&lt;com.nt.service{BankService.java[BankService~calculateCompoundInterest~D~D~D" target-start-line="11"/>
+<aop-reference advice-type="AROUND" bean="1:BeansModel|2:SpringAOP-Proj01-AroundAdvice|3:src/main/java/com/nt/cfgs/applicationContext.xml|7:beans:8|8:bankService:8" bean-file="/SpringAOP-Proj01-AroundAdvice/src/main/java/com/nt/cfgs/applicationContext.xml" bean-start-line="8" factory-id="org.springframework.ide.eclipse.aop.core.aopReferenceElementFactory" file="/SpringAOP-Proj01-AroundAdvice/src/main/java/com/nt/cfgs/applicationContext.xml" source="=SpringAOP-Proj01-AroundAdvice/src\/main\/java=/optional=/true=/=/maven.pomderived=/true=/&lt;com.nt.aspect{PerformanceMonitoringAspect.java[PerformanceMonitoringAspect~performance~QProceedingJoinPoint;" source-start-line="14" target="=SpringAOP-Proj01-AroundAdvice/src\/main\/java=/optional=/true=/=/maven.pomderived=/true=/&lt;com.nt.service{BankService.java[BankService~calculateSimpleInterest~D~D~D" target-start-line="7"/>
+</aspect-definition>
+</aop-project>
+<aop-project name="MVCProj2-SecondApp"/>
+<aop-project name="SpringAOP-Proj02-BeforeAdvice">
+<aspect-definition advice-class-name="com.nt.aspect.PreTesting" advice-method-name="testDrive(org.aspectj.lang.JoinPoint)" advice-type="BEFORE" aspect-end-line-number="10" aspect-name="preTest" aspect-start-line-number="10" factory-id="org.springframework.ide.eclipse.aop.core.annotationAspectDefinitionElementFactory" file="/SpringAOP-Proj02-BeforeAdvice/src/main/java/com/nt/cfgs/applicationContext.xml" pointcut-expression="execution(* com.nt.service.ShowRoom.purchase(..))" proxy-target-class="false">
+<aop-reference advice-type="BEFORE" bean="1:BeansModel|2:SpringAOP-Proj02-BeforeAdvice|3:src/main/java/com/nt/cfgs/applicationContext.xml|7:beans:8|8:showRoom:8" bean-file="/SpringAOP-Proj02-BeforeAdvice/src/main/java/com/nt/cfgs/applicationContext.xml" bean-start-line="8" factory-id="org.springframework.ide.eclipse.aop.core.aopReferenceElementFactory" file="/SpringAOP-Proj02-BeforeAdvice/src/main/java/com/nt/cfgs/applicationContext.xml" source="=SpringAOP-Proj02-BeforeAdvice/src\/main\/java=/optional=/true=/=/maven.pomderived=/true=/&lt;com.nt.aspect{PreTesting.java[PreTesting~testDrive~QJoinPoint;" source-start-line="15" target="=SpringAOP-Proj02-BeforeAdvice/src\/main\/java=/optional=/true=/=/maven.pomderived=/true=/&lt;com.nt.service{ShowRoom.java[ShowRoom~purchase~QString;~D~D" target-start-line="7"/>
+</aspect-definition>
+</aop-project>
+<aop-project name="SpringJdbcProj5-JdbcTemplate-CallbackMethod"/>
+<aop-project name="SpringJdbcProj3-JdbcTemplate-DirectMethod"/>
+<aop-project name="MVCProj04-DataBinding-SpringSuppliedJSPTags"/>
+<aop-project name="SpringJdbcProj2-JdbcTemplate-DirectMethod"/>
+<aop-project name="IOCProj3-ValueAnnotation"/>
+<aop-project name="MVCProj03-DataBinding-HTML"/>
+<aop-project name="MVCProj1-FirstApp"/>
+<aop-project name="SpringBeanLifeCycle-Programatic"/>
+<aop-project name="StratagyDP-MavenProj1"/>
+<aop-project name="MVCProj06-MiniProject-CURDoperations"/>
+<aop-project name="SpringJdbcProj0-jdbcTemplate-DirectMethod"/>
+<aop-project name="SpringBeanLifeCycle-Annotation"/>
+<aop-project name="SpringBeanLifeCycle-Declarative"/>
+<aop-project name="MVCProj05-DataBinding-UsingRequestParams"/>
+</aop-reference-model>

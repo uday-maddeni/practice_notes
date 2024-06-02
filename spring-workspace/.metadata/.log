@@ -1,0 +1,15 @@
+!SESSION 2024-03-16 18:57:39.889 -----------------------------------------------
+eclipse.buildId=4.26.0.20221201-1200
+java.version=17.0.6
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_IN
+Framework arguments:  -product org.eclipse.epp.package.jee.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.jee.product
+
+This is a continuation of log file C:\Users\HP\spring-workspace\.metadata\.bak_0.log
+Created Time: 2024-03-17 08:44:20.343
+
+!ENTRY org.eclipse.ui 4 4 2024-03-17 08:44:20.345
+!MESSAGE Could not create action delegate for id: org.springframework.ide.eclipse.beans.ui.editor.actions.refactorPropertyElementAction
+!SUBENTRY 1 org.eclipse.ui 4 0 2024-03-17 08:44:20.345
+!MESSAGE Action must implement IEditorActionDelegate

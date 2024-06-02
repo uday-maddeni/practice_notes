@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xmlns:context="http://www.springframework.org/schema/context"
+	xmlns:security="http://www.springframework.org/schema/security"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans https://www.springframework.org/schema/beans/spring-beans-4.3.xsd
+		http://www.springframework.org/schema/context https://www.springframework.org/schema/context/spring-context-4.3.xsd
+		http://www.springframework.org/schema/security https://www.springframework.org/schema/security/spring-security-5.7.xsd">
+		
+		
+		<security:http use-expressions="true">
+		  <security:intercept-url pattern="/"         access="permitAll" />
+		  <security:intercept-url pattern="/wish"     access="hasRole('ROLE_ADMIN')" />
+		  <security:intercept-url pattern="/contact"  access="hasRole('ROLE_AGENT')" />
+		  
+		  <!-- <security:http-basic /> -->
+		  
+		  <security:form-login />
+		  <security:access-denied-handler error-page="/access_denied.jsp" />
+		  <security:logout />
+		  <security:remember-me />
+<!-- 		  <security:session-management>
+		     <security:concurrency-control max-sessions="2" error-if-maximum-exceeded="true" />
+		  </security:session-management> -->
+		  
+		</security:http>
+		
+		<security:authentication-manager>
+		  <security:authentication-provider>
+		      <security:password-encoder hash="bcrypt" />
+		      <security:user-service properties="classpath:com/nt/commons/security.properties" />
+		  </security:authentication-provider>
+		</security:authentication-manager>
+		
+<!-- 		<security:authentication-manager>
+		  <security:authentication-provider>
+		    <security:user-service>
+		      <security:user name="raja"    password="{noop}rani" authorities="ROLE_ADMIN" />
+		      <security:user name="ramesh"  password="{noop}hyd"  authorities="ROLE_AGENT" />
+		      <security:user name="suresh"  password="{noop}mbnr" authorities="ROLE_AGENT, ROLE_ADMIN" />
+		      <security:user name="raghu"   password="{noop}sec"  authorities="ROLE_VISITOR" locked="true"/>
+		    </security:user-service>
+		  </security:authentication-provider>
+		</security:authentication-manager> -->
+		
+</beans>

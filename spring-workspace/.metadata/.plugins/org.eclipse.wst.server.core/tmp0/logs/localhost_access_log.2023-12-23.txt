@@ -1,0 +1,15 @@
+127.0.0.1 - - [23/Dec/2023:20:55:18 +0530] "GET / HTTP/1.1" 404 752
+0:0:0:0:0:0:0:1 - - [23/Dec/2023:20:55:26 +0530] "GET /MVCProj2-SecondApp/ HTTP/1.1" 200 83
+0:0:0:0:0:0:0:1 - - [23/Dec/2023:20:55:26 +0530] "GET /favicon.ico HTTP/1.1" 404 763
+0:0:0:0:0:0:0:1 - - [23/Dec/2023:20:55:39 +0530] "GET /MVCProj2-SecondApp/wish HTTP/1.1" 200 60
+0:0:0:0:0:0:0:1 - - [23/Dec/2023:20:55:45 +0530] "GET /MVCProj2-SecondApp/ HTTP/1.1" 200 83
+0:0:0:0:0:0:0:1 - - [23/Dec/2023:20:55:50 +0530] "GET /MVCProj2-SecondApp/wish HTTP/1.1" 200 60
+0:0:0:0:0:0:0:1 - - [23/Dec/2023:20:55:54 +0530] "GET /MVCProj2-SecondApp/ HTTP/1.1" 200 83
+0:0:0:0:0:0:0:1 - - [23/Dec/2023:20:56:00 +0530] "GET /MVCProj2-SecondApp/wish HTTP/1.1" 200 60
+0:0:0:0:0:0:0:1 - - [23/Dec/2023:20:56:02 +0530] "GET /MVCProj2-SecondApp/ HTTP/1.1" 200 83
+0:0:0:0:0:0:0:1 - - [23/Dec/2023:20:57:22 +0530] "GET /MVCProj2-SecondApp/ HTTP/1.1" 200 83
+0:0:0:0:0:0:0:1 - - [23/Dec/2023:20:57:27 +0530] "GET /MVCProj2-SecondApp/wish HTTP/1.1" 200 60
+0:0:0:0:0:0:0:1 - - [23/Dec/2023:20:57:29 +0530] "GET /MVCProj2-SecondApp/ HTTP/1.1" 200 83
+127.0.0.1 - - [23/Dec/2023:21:01:38 +0530] "GET / HTTP/1.1" 404 752
+0:0:0:0:0:0:0:1 - - [23/Dec/2023:21:01:39 +0530] "GET /MVCProj2-SecondApp/ HTTP/1.1" 200 83
+0:0:0:0:0:0:0:1 - - [23/Dec/2023:21:01:52 +0530] "GET /MVCProj2-SecondApp/wish HTTP/1.1" 200 60
